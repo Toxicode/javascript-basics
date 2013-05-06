@@ -14,14 +14,14 @@ Math.round(5.25); // > 5
 // Arrondis à l'entier supérieur
 Math.ceil(5.25); // > 6
 
-// Arrondis à l'entier supérieur
+// Arrondis à l'entier inférieur
 Math.floor(5.25); // > 5
 
 // Retourne le plus grand nombre
 Math.max(1, 5); // > 5
 
 // Retourn le plus petit nombre
-Math.min(1, 5); // > 6
+Math.min(1, 5); // > 1
 
 // Autres méthodes
 
