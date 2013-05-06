@@ -4,9 +4,9 @@ moveLeft = function() {
     this.x -= 1;
 };
 
-(...)
+// ... moveRight, moveUp, moveDown
 
-function constructor(name) {
+function Player(name) {
     this.id = name; //Attention à this !
     this.x = 1;
     this.y = 1;
@@ -18,26 +18,10 @@ function constructor(name) {
 
 
 
-
-
-var player1 = new constructor('Pierre');
-var player2 = new constructor('Cyrille');
+var player1 = new Player('Pierre');
+var player2 = new Player('Cyrille');
 
 
 player1.moveLeft();
 player2.moveLeft();
 
-
-
-
-/*
-
-function new(f, arguments) {
-    o = {};
-    f.apply(o, arguments);
-    return o;
-}
-
-var player1 = new(constructor);
-
-*/

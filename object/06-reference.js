@@ -1,3 +1,4 @@
+
 var player1 = {
     id: 'Pierre',
     x: 1,

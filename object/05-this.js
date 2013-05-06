@@ -1,3 +1,4 @@
+
 var player1 = {
     id: 'Pierre',
     x: 1,
@@ -13,7 +14,7 @@ var player2 = {
 };
 
 player1.moveLeft = function() {
-    this.x -= 1;  //this fait référence au joueur.
+    this.x -= 1; //this fait référence au joueur.
 };
 
 player1.moveLeft();

@@ -1,6 +1,4 @@
 
-
-
 function Player(name) {
     this.id = name;
     this.x = 1;
@@ -14,12 +12,9 @@ Player.prototype.moveLeft = function() {
 };
 
 
-
-
 var player1 = new Player('Pierre');
 var player2 = new Player('Cyrille');
 
 
 player1.moveLeft();
 player2.moveLeft();
-

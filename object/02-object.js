@@ -1,3 +1,4 @@
+
 var player1 = {
     id: 'Pierre',
     x: 1,
@@ -12,9 +13,8 @@ var player2 = {
     life: 100
 };
 
-function moveLeft(player) {
-    player.x -= 1;
+function moveLeft(x) {
+    return x - 1;
 }
 
-moveLeft(player1);
-
+player1.x = moveLeft(player1.x);

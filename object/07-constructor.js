@@ -1,15 +1,14 @@
 
-
 moveLeft = function() {
     this.x -= 1;
 };
 
-(...)
+// ... moveRight, moveUp, moveDown
 
 function constructor(player) {
-    player.moveLeft  = moveleft;
+    player.moveLeft = moveleft;
     player.moveRight = moveRight;
-    player.takeItem  = takeItem;
+    player.takeItem = takeItem;
 };
 
 

@@ -12,8 +12,16 @@ var player2 = {
     life: 100
 };
 
-function moveLeft(x) {
-    return x - 1;
-}
+player1.moveLeft = function() {
+    player1.x -= 1;
+};
 
-player1.x = moveLeft(player1.x);
+player1.moveLeft();
+
+
+
+
+
+player2.moveLeft = function() {
+    player2.x -= 1;
+};

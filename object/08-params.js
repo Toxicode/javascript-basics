@@ -1,10 +1,9 @@
 
-
 moveLeft = function() {
     this.x -= 1;
 };
 
-(...)
+// ... moveRight, moveUp, moveDown
 
 function constructor(player, name) {
     player.id = name;
@@ -19,6 +18,7 @@ function constructor(player, name) {
 
 var player1 = {};
 var player2 = {};
+
 
 constructor(player1, 'Pierre');
 constructor(player2, 'Cyrille');
