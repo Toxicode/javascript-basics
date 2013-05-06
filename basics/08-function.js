@@ -6,12 +6,14 @@ var life = 100;
 
 // Définition basique
 function takeDamages(amount) {
-    return life -= amount;
+    life -= amount
+    return life;
 }
 
 // Assignation d'une fonction anonyme dans une variable
 var takeDamages = function(amount) {
-    return life -= amount;
+    life -= amount
+    return life;
 };
 
 /*
