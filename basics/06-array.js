@@ -107,7 +107,7 @@ console.log(years); // > [1950, 1960, 1970, 1980, 1990, 2000, 2010]
 var otherSports = ["snowboard", "karting"];
 
 // Créer un nouveau tableau qui joint les 2;
-var allSports = sports.concart(otherSports);
+var allSports = sports.concat(otherSports);
 
 console.log(sports); // Reste inchangé
 console.log(allSports); // > ["soccer", ..., "handball", "snowboard", "karting"]
