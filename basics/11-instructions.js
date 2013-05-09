@@ -39,6 +39,27 @@ switch(weapon) {
         break;
 }
 
+/*
+
+Syntaxe alternative au switch
+var weapons = {
+    hammer: function() {
+        console.log("Paf!");
+    },
+    shotgun: function() {
+        console.log("Bang!");
+    },
+    bomb: function() {
+        console.log("Boom!");
+    }
+};
+
+if (typeof weapons[weapon] === "undefined") {
+    console.log("Default");
+} else {
+    weapons[weapon]();
+}
+*/
 
 /*
  * for
